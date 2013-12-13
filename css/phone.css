@@ -1,0 +1,679 @@
+/* Phone CSS for Destiny Public View */
+
+body {
+	padding: 0px;
+	margin: 0 5px;
+	background: #fff;
+	-webkit-text-size-adjust: none;
+}
+
+#container {
+	min-width: 310px;
+	font: 0.9em Arial, Helvetica, sans-serif;
+}
+
+#GlobalHeader {
+	margin: 0 -5px 5px -5px;
+	background: #223C67;
+	overflow: hidden;
+}
+
+#SocialLinks {
+	display: none;
+}
+
+#MobileMenuButton {
+	display: block;
+	float: right;
+	margin: 6px;
+	padding: 4px 25px 4px 8px;
+	font-size: 1.1em;
+	text-decoration: none;
+	background: #eaeaea url(/d/images/MobileArrow-gray-down.png) no-repeat 85% center;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#logo img {
+	display: block;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	width: 200px;
+	height: auto;
+}
+
+#search {
+	display: none;
+}
+
+#PortalLinks {
+	display: none;
+}
+
+#GlobalHeader nav {
+	display: none;
+}
+
+img {
+	display: block;
+	border: none;	
+}
+
+ul {
+	padding: 0px;	
+}
+
+li {
+	margin-top: 0.6em;
+	margin-bottom: 0.6em;
+	margin-left: 15px;
+}
+
+a {
+	color: #06C;	
+}
+
+h1, h2, h3, h4 {
+	margin: 10px 0 0 0;
+	color: #223C67;
+	font: normal 1.3em "Gill Sans", Arial, sans-serif;
+}
+
+#MainContent h3 {
+	font-size: 1.4em;
+}
+
+#TopHeader {
+	clear: both;
+}
+
+#TopHeader h1 {
+	font-size: 1.7em;
+}
+
+#TopHeader h1 span {
+	display: block;
+	font-size: 0.5em;
+	text-transform: uppercase;
+}
+
+#breadcrumb {
+	display: none;	
+}
+
+section header, article header {
+	margin-top: 20px;
+	border-bottom: 2px solid #e9bf19;
+}
+
+aside #ImageRotator img {
+	margin-top: 0.3em;
+}
+
+a.LinkButton {
+	padding: 0.4em 0.8em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 0.8em;
+	background: url(/d/images/LinkButtonBG.png) repeat-x center;
+	font-size: 0.85em;
+	line-height: normal;
+}
+
+a.CartButton {
+	padding: 0.4em 0.8em;
+	color: #223C67;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 0.8em;
+	background: #eaeaea;
+	font-size: 0.85em;
+	font-weight: bold;
+	line-height: normal;
+}
+
+footer {
+	padding-top: 15px;
+}
+
+#MobilePortalLinks {
+	margin-bottom: 15px;
+	padding-top: 15px;
+	border-top: 2px solid #e9bf19;
+	border-bottom: 2px solid #e9bf19;
+	overflow: hidden;
+}
+
+#MobilePortalLinks a {
+	display: block;
+	float: right;
+	width: 41%;
+	margin-bottom: 15px;
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	background: #223C67 url(/d/images/MobileArrow-white-right.png) no-repeat 90% center;
+	color: #fff;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+#MobilePortalLinks a:first-child {
+	float: left;
+}
+
+#PortalLinks.LoggedIn a, #MobilePortalLinks.LoggedIn a {
+	color: #e9bf19;
+}
+
+#MobilePortalLinks.LoggedIn a:last-child {
+	background: #223C67 url(/d/images/cart_icon.png) no-repeat 90% center;
+}
+
+#MobileSearch {
+	clear: both;	
+	margin-left: 10px;
+}
+
+#MobileSearch label {
+	font-size: 1.1em;
+	font-weight: bold;	
+}
+
+#MobileSearchField {
+	width: 75%;
+	font-size: 1.2em;
+}
+
+#MobileSearch input[type="image"] {
+	margin-left: 5px;	
+	margin-bottom: -5px;
+}
+
+footer nav li {
+	margin: 0;
+	list-style: none;
+}
+
+footer nav li:last-child, footer nav li:nth-last-child(3) {
+	display: none;
+}
+
+footer nav a {
+	display: block;
+	padding: 10px 30px 10px 10px;
+	text-decoration: none;
+	background: #223C67 url(/d/images/MobileArrow-gold-right.png) no-repeat 95% center;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+footer nav li:first-child a {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+footer nav li:nth-last-child(2) a {
+	border-bottom: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#copyright {
+	display: none;	
+}
+
+#vendormark {
+	display: none;	
+}
+
+#MobileFooterLinks {
+	margin: 15px 0 15px 10px;
+	overflow: hidden;
+}
+
+#MobileFooterLinks a {
+	display: block;
+	float: left;
+	padding: 0 10px;
+	border-left: 1px solid #000;
+}
+
+#MobileFooterLinks a:first-child {
+	padding-left: 0;
+	border: none;
+}
+
+#MainContent ul.bulletstyle-1 {
+	margin: 0;
+	padding: 0;
+}
+
+#MainContent ul.bulletstyle-1 li {
+	margin: 0;
+	list-style: none;
+}
+
+#MainContent ul.bulletstyle-1 a {
+	display: block;
+	margin-bottom: -1px;
+	padding: 10px 30px 10px 10px;
+	text-decoration: none;
+	background: #eee url(/d/images/MobileArrow-gold-right.png) no-repeat 95% center;
+	color: #036;
+	border: 1px solid #999;
+}
+
+ul.bulletstyle-1 li:first-child a {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+ul.bulletstyle-1 li:last-child a {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.columns ul.bulletstyle-1 li:last-child a {
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.columns + .columns ul.bulletstyle-1 li:first-child a {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+.columns + .columns ul.bulletstyle-1 li:last-child a {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#MainContent ul.bulletstyle-2 {
+	padding: 0px;
+	list-style: none;	
+}
+
+#MainContent ul.bulletstyle-2 li {
+	margin-left: 0;	
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+figure {
+	clear: left;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+figure img {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	height: 120px;
+	width: auto;
+}
+
+figcaption {
+	float: left;
+	font-size: 12px;
+}
+
+figcaption strong {
+	text-transform: uppercase;	
+}
+
+table {
+	margin: 1.5em 0;
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+caption {
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.1em;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	padding: 8px 10px;
+	background: #eaeaea;
+	font-family: "Gill Sans", Arial, sans-serif;
+}
+
+th {
+	text-align: left;
+	color: #fff;
+	font-family: "Gill Sans", Arial, sans-serif;
+	font-weight: normal;
+	background: #223C67;	
+}
+
+th, td {
+	padding: 4px 10px;
+	vertical-align: top;
+	font-size: 0.9em;
+}
+
+tr:nth-of-type(even) {
+	background: #eaeaea;	
+}
+
+abbr {
+	border: none;	
+}
+
+form input, form select {
+	font: 1em Arial, Helvetica, sans-serif;	
+}
+
+#MainContent input[type="search"], select[multiple], fieldset, #yuiExample {
+	border: 1px solid #069;	
+}
+
+input[type="submit"] {
+	margin: 1em 0;
+	padding: 0.4em 0.8em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 0.8em;
+	background: url(/d/images/LinkButtonBG.png) repeat-x center;
+	font-size: 0.85em;
+	cursor: pointer;
+}
+
+/*** Custom Template Styles ***/
+
+/* certificate.html */
+
+#CertIntro figure {
+	float: right;
+	margin: 15px 0 0 1em;
+}
+
+#CertIntro figure a {
+	text-decoration: none;
+}
+
+#CertIntro figure a:hover {
+	text-decoration: underline;
+}
+
+#CertIntro figure img {
+	float: none;
+	width: 100px;
+	height: auto;
+	margin: 0;
+	border: 1px solid #999;
+}
+
+#CertIntro figcaption {
+	float: none;
+	width: 80px;
+	min-width: 0;
+	margin: 10px 0;
+	padding: 0 10px;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+table.CertCourses abbr {
+	display: block;	
+}
+
+/* catcourse.html */
+
+#MainContent section.CourseBlock {
+	margin: 1em 0;
+	padding: 0;
+	border: 1px solid #999;
+}
+
+#MainContent section.CourseBlock h3 {
+	float: left;
+	margin: 0;
+	border: none;
+	font-size: 1em;
+	font-weight: normal;
+	text-transform: none;
+	color: #fff;
+}
+
+#MainContent section.CourseBlock a.CartButton {
+	float: right;
+	margin-right: -10em;
+}
+
+#MainContent section.CourseBlock header {
+	margin: 0;
+	padding: 0.5em 9em 0.5em 0.5em;
+	border: none;
+	background: #223C67 url(none);
+	overflow: hidden;
+}
+
+#MainContent section.CourseBlock footer {
+	margin: 0;
+	padding: 0.5em;
+	border: none;
+	text-align: left;
+	background: #fff;
+}
+
+#MainContent section.CourseBlock footer p {
+	margin: 0;
+	font-size: 1em;
+	line-height: normal;
+	color: #000;
+}
+
+#MainContent section.CourseBlock strong {
+	color: #223C67;
+}
+
+#MainContent section.CourseBlock ul {
+	margin: 0;
+	padding: 0;
+}
+
+#MainContent section.CourseBlock li {
+	margin: 0;
+	padding: 0.5em;
+	list-style: none;
+}
+
+#MainContent section.CourseBlock li:nth-last-of-type(even) {
+	background: #eaeaea;
+}
+
+#MainContent section.textbooks {
+	background: #eaeaea;
+	padding-bottom: 0.5em;
+}
+
+#MainContent section.textbooks header {
+	margin-bottom: -0.5em;
+	color: #000;
+	background: #eaeaea;
+}
+
+#MainContent section.textbooks strong {
+	color: #000;
+}
+
+#MainContent section.textbooks p {
+	margin-top: 1em;
+	margin-bottom: 1.4em;
+	margin-left: 0.5em;
+	line-height: normal;
+}
+
+#MainContent section.textbooks ul {
+	margin-top: -1.3em;
+}
+
+#MainContent section.textbooks li {
+	padding: 0.1em 0.5em;
+}
+
+#MainContent section.textbooks li:nth-last-of-type(even) {
+	background: none;
+}
+
+#MainContent section.textbooks h4 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+section.CourseBlock table {
+	border-collapse: separate;
+	margin: 0.625em 0 0 0;
+	padding: 0.4em;
+	border: none;
+	border-bottom: 2px solid #fff;
+	background: #eaeaea;
+}
+
+section.CourseBlock table + table {
+	margin-top: 0;
+}
+
+#MainContent section.CourseBlock table + ul {
+	clear: right;
+	margin-top: 0.5em;
+}
+
+section.CourseBlock th {
+	color: #000;
+	font-weight: bold;
+	background: none;
+}
+
+section.CourseBlock th, section.CourseBlock td {
+	padding: 0;
+}
+
+section.CourseBlock tr {
+	background: none;
+}
+
+section.CourseBlock .CourseInstructor {
+	margin-left: 0.5em;
+}
+
+/* template-certsearchresults.html, template-certificatehome.html, template-cathome.html */
+
+#QuickSearch {
+	margin-bottom: 3em;
+}
+
+p + #QuickSearch {
+	margin-top: 3em;
+}
+
+#QuickSearch label {
+	display: block;
+	margin: 0.625em auto;
+	font-weight: bold;
+}
+
+/* template-catsearchresults.html */
+
+form#NarrowResults {
+	margin-top: -1em;
+}
+
+form#NarrowResults label {
+	display: none;	
+}
+
+form#NarrowResults input[type="submit"] {
+	display: block;
+	width: auto;
+}
+
+form#NarrowResults input, form#NarrowResults select {
+	margin: 10px 2px;
+	width: 16.3em;
+}
+
+/* template-catsearchresults.html */
+
+img#CatalogCover {
+	display: block;
+	width: auto;
+	margin: 10px auto;	
+	border: 1px solid #999;
+}
+
+/* template-cathome.html */
+
+#yuiExample {
+	margin: -0.7em 2.5em 1em 0;
+	height: 12em;
+	overflow-y: scroll;
+}
+
+.AdvSearchFilter {
+	width: 15em;
+	float: left;
+	margin: 0 20px 30px 0;
+}
+
+.AdvSearchFilter label {
+	display: block;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+
+#CourseAvailFilter {
+	float: left;
+	margin: 0;
+}
+
+#CourseAvailFilter label {
+	display: block;
+	float: left;
+	margin: 4px 0 4px 0;
+}
+
+#CourseAvailFilter input {
+	display: block;
+	float: left;
+	clear: left;
+	margin: 5px 5px 5px 0;
+}
+
+#AdvSearchFilters input[type="submit"]{
+	display: block;
+	clear: left;
+}
+
+#AdvSearchFilters {
+	overflow: hidden;
+}
+
+/* internationalhome.html */
+
+.landing1 footer nav li:last-child, .landing1 footer nav li:nth-last-child(3) {
+	display: inline;
+}
+
+.landing1 footer nav li:last-child a {
+	border-bottom: none;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.landing1 footer nav li:nth-last-child(2) a {
+	border-bottom: 1px solid #fff;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}

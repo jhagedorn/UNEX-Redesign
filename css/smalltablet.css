@@ -1,0 +1,760 @@
+
+/* Small Tablet CSS for Destiny Public View */
+
+body {
+	margin: 0;
+	-webkit-text-size-adjust: auto;
+}
+
+#container {
+	margin: 0 auto;
+	overflow: hidden;
+	font: 0.8em Arial, Helvetica, sans-serif;	
+}
+
+#GlobalHeader {
+	margin: 0 0;
+	margin-right: -30px;
+	background: #022B55 url(/d/images/HeaderBG-login.png) no-repeat right 20px;
+}
+
+#GlobalHeader a {
+	font-family: "Gill Sans", Arial, sans-serif;	
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#SocialLinks {
+	display: block;
+	float: right;
+	position: relative;
+	top: 20px;
+	height: 2em;
+	right: 63px;
+	margin-bottom: 75px;
+}
+
+#SocialLinks a {
+	display: block;
+	float: left;
+	padding-right: 2px;
+	font-size: 0.9em;
+}
+
+#CartLink {
+	display: block;
+	margin-top: 8px;
+	margin-left: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 1px solid #fff;
+}
+
+#MobileMenuButton { 
+	display: none;
+}
+
+#logo img {
+	position: relative;
+	top: 15px;
+	left: 2.8%;
+	width: 38%;
+	height: auto;
+}
+
+#search {
+	display: block;
+	position: relative;
+	float: right;
+	clear: right;
+	right: 66px;
+	margin: 0;
+	padding: 0;
+}
+
+#search label {
+	display: none;	
+}
+
+#SearchField {
+	margin: 0;
+	padding: 1px;
+	width: 154px;
+	height: 1.2em;
+	border: 1px solid #006;
+	background: #eaeaea;
+}
+
+input[type="search"] {
+	-webkit-appearance: none;
+    -webkit-box-sizing: content-box;
+	border-radius: 0px;	
+}
+
+#SearchField:focus {
+	background: #fff;
+}
+
+#search input[type="image"] {
+	margin-left: -5px;	
+	margin-bottom: -5px;
+}
+
+#PortalLinks {
+	display: block;
+	float: right;
+	position: relative;
+	right: 98px;
+}
+
+#PortalLinks a {
+	border-left: 1px solid #fff;	
+	padding-left: 11px;
+	padding-right: 7px;
+	font-size: 0.85em;
+}
+
+#PortalLinks a:first-child {
+	border: none;
+}
+
+.LoggedIn a {
+	color: #e9bf19 !important;
+}
+
+#GlobalHeader nav {
+	display: block;
+	margin-top: 130px;
+	border-top: 2px solid #e9bf19;
+	border-bottom: 2px solid #e9bf19;
+	overflow: hidden;
+}
+
+#GlobalHeader nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+#GlobalHeader nav li {
+	margin: 0;
+	display: inline;
+	list-style: none;
+}
+
+#GlobalHeader nav li a {
+	float: left;
+	width: 24%;
+	padding: 0.8em 2.5%;
+	font-size: 0.9em;
+	word-spacing: 0.2em;
+	text-decoration: none;
+	border-left: 1px solid #fff;
+	background:
+		url(/d/images/GlobalNavBG-RadialBlur.png) no-repeat left,
+		url(/d/images/GlobalNavBG-TwoTone.png) repeat-x center;
+}
+
+#GlobalHeader nav li:first-child a {
+	border-left: none;	
+}
+
+#GlobalHeader nav li:nth-child(3) a {
+	clear: left;
+	border-left: none;
+}
+
+#GlobalHeader nav li:nth-child(6) a {
+	border-left: none;
+}
+
+#GlobalHeader nav li:nth-child(2) a,
+#GlobalHeader nav li:nth-child(7) a {
+	border-right: 1px solid #fff;
+}
+
+#GlobalHeader nav li:nth-child(1) a,
+#GlobalHeader nav li:nth-child(3) a,
+#GlobalHeader nav li:nth-child(6) a {
+	width: 33%
+}
+
+#MobileMore {
+	display: none;
+	padding: 0.8em 2.5%;
+	font-size: 0.9em;
+	background:
+		url(/d/images/MobileArrow-white-down.png) no-repeat 60px center,
+		url(/d/images/GlobalNavBG-RadialBlur.png) no-repeat left,
+		#036 url(/d/images/GlobalNavBG-TwoTone.png) repeat-x center;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+img {
+	display: block;
+	border: none;	
+}
+
+p {
+	margin: 1em 0;
+	line-height: 1.4em;
+}
+
+#MainContent li {
+	margin-left: 2.5em;
+}
+
+a {
+	color: #06C;	
+}
+
+h1, h2, h3, h4 {
+	margin: 1em 0 0.75em 0;
+}
+
+header h1, header h2, header h3, header h4 {
+	margin: 0;
+}
+
+h1, h2 {
+	font-size: 1.35em;
+}
+
+#MainContent h2 {
+	text-transform: uppercase;
+}
+
+#MainContent h2 span {
+	display: block;
+}
+
+#MainContent h3 {
+	margin-top: 0.4em;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	border-bottom: 2px solid #e9bf19;
+}
+
+#TopHeader {
+	padding: 0.5em 0 0.1em 2.5%;
+	border-bottom: 4px solid #223C67;
+	background: #fcf1e5 url(/d/images/TopHeaderBG2.png) repeat-x bottom;
+}
+
+#TopHeader h1 {
+	margin-bottom: -2px;
+	margin-left: -0.05em;
+	font-size: 2.5em;
+	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
+}
+
+#TopHeader h1 span {
+	margin-left: 0.05em;
+	letter-spacing: 0;
+	word-spacing: 0;
+}
+
+#breadcrumb {
+	display: block;	
+}
+
+#breadcrumb ul, footer ul {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+#breadcrumb li, footer li {
+	display: inline;
+	margin: 0;
+	list-style: none;
+}
+
+#breadcrumb li {
+	font-size: 0.8em;
+}
+
+#breadcrumb li:before {
+	content: " » ";
+}
+
+#breadcrumb li:first-child:before {
+	content: "";
+}
+
+#breadcrumb a {
+	color: #223C67;
+}
+
+section header, article header {
+	margin-top: auto;
+	border-bottom: none;
+}
+
+#MainContent {
+	padding: 0.5em 2.5% 0 2.5%;
+}
+
+#MainContent section {
+	clear: left;
+	margin: 0 -3.9% 0 -3.9%;
+	padding: 0 3.9% 0 3.9%;
+	box-shadow: inset 0 0 25px #ddd;
+	-moz-box-shadow: inset 0 0 25px #ddd;
+	-webkit-box-shadow: inset 0 0 25px #ddd;
+	overflow: hidden;
+}
+
+#MainContent section:first-child {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+#MainContent header {
+	margin: 0 -2em 1.5em -2em;
+	padding: 1.5em 2em 0.2em 2em;
+	border-top: 4px solid #223C67;
+	border-bottom: 1px solid #223C67;
+	background: #eaeaea url(/d/images/GrayHeaderBG.png) repeat-x bottom;
+}
+
+#MainContent .columns {
+	float: left;
+	margin-right: 4%;
+	width: 45%;
+}
+
+aside section, aside article {
+	float: left;
+	width: 42.5%;
+	min-height: 21em;
+	padding: 1.2em 3.5%;
+	border-top: 1px solid #e9bf19;
+	overflow: hidden;
+}
+
+aside section:nth-child(even), aside article:nth-child(even) {
+	border-left: 1px solid #e9bf19;
+}
+
+aside img {
+	width: 100%;
+	height: auto;
+}
+
+aside img.NoScale {
+	width: auto;	
+}
+
+a.LinkButton {
+	float: right;
+}
+
+#MainContent a.LinkButton {
+	margin-bottom: 1.5em;
+}
+
+#MobilePortalLinks {
+	display: none;	
+}
+
+#MobileSearch {
+	display: none;	
+}
+
+footer {
+	clear: both;
+	padding: 0px;
+	font-size: 0.85em;
+	text-align: center;
+	border-top: 1px solid #e9bf19;
+	background: #eaeaea;
+	overflow: hidden;
+}
+
+footer nav ul { 
+	width: 45em;
+	margin: 0px auto 10px auto;
+	padding: 0;
+}
+
+footer nav li {
+	display: inline;
+	list-style: none;
+	border-left: 1px solid #666;
+	line-height: 1.5em;
+	padding: 0 10px;
+}
+
+footer nav li:last-child, footer nav li:nth-last-child(3) {
+	display: inline;
+}
+
+footer nav a {
+	display: inline;
+	padding: 0;
+	text-decoration: underline;
+	background: none;
+	color: #666;
+	border-bottom: none;
+}
+
+footer nav li:first-child {
+	border-left: none;
+}
+
+footer nav li:nth-child(6) {
+	border-left: none;	
+}
+
+footer p {
+	margin: 0.8em 0;
+	color: #666;
+}
+
+#copyright {
+	display: block;	
+}
+
+#vendormark {
+	display: block;
+	font-style: italic;		
+}
+
+#MobileFooterLinks {
+	display: none;	
+}
+
+#MainContent ul.bulletstyle-1 {
+	font-size: 1.1em;
+	margin-bottom: 20px;
+	padding-left: 25px;
+}
+
+#MainContent ul.bulletstyle-1 li {
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+
+#MainContent ul.bulletstyle-1 a {
+	font-weight: bold;
+	display: inline;
+	margin-bottom: 0;
+	padding: 0;
+	text-decoration: none;
+	background: none;
+	color: #223C67;
+	border: none;
+}
+
+#MainContent ul.bulletstyle-1 a:hover {
+	text-decoration: underline;
+}
+
+ul.bulletstyle-1 li:first-child a, ul.bulletstyle-1 li:last-child a {
+	border: none;
+}
+
+#MainContent ul.arrow-blue li {
+	list-style: url(/d/images/bullet_arrow-blue.png);	
+}
+
+#MainContent ul.arrow-orange li {
+	list-style: url(/d/images/bullet_arrow-orange.png);	
+}
+
+#MainContent ul.bulletstyle-2 {
+	margin-bottom: 20px;
+	padding: 0;
+	list-style: none;	
+}
+
+figure {
+	clear: left;
+	margin: 20px 0;
+	overflow: hidden;
+}
+
+figure img {
+	float: left;
+	width: 82px;
+	height: 120px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+figcaption {
+	float: left;
+	min-width: 15em;
+	font-size: 0.9em;
+}
+
+figcaption strong {
+	text-transform: uppercase;	
+}
+
+aside figure {
+	margin: 10px 0;
+}
+
+aside figcaption {
+	min-width: 13em;
+}
+
+th, td {
+	font-size: 1em;
+}
+
+/*** Custom Template Styles ***/
+
+/* template-certificate.html */
+
+#CertIntro {
+	background: url(/d/images/CertIntroBG.png) repeat-x bottom;
+}
+
+#CertIntro figure {
+	margin: 15px 0 0 1.5em;
+}
+
+table.CertCourses {
+	margin: 0;
+}
+
+table.CertCourses th:first-child, table.CertCourses td:first-child {
+	white-space: nowrap;
+}
+
+table.CertCourses th:nth-child(3), table.CertCourses td:nth-child(3) {
+	text-align: center;
+}
+
+/* template-catcourse.html */
+
+#MainContent section.CourseBlock {
+	margin: 0 0 2em 0;
+	padding: 0 0.625em 0.625em 0.625em;
+	box-shadow: none;
+}
+
+#MainContent section.CourseBlock h3 {
+	font-size: 1.1em;
+}
+
+#MainContent section.CourseBlock a.CartButton {
+	margin-right: -9em;
+}
+
+#MainContent section.CourseBlock header {
+	margin: 0 -1em 0 -1em;
+	padding: 0.5em 9em 0.5em 1em;
+}
+
+#MainContent section.CourseBlock footer {
+	margin: 0 -1em -1em -1em;
+	padding: 1em;
+}
+
+#MainContent section.CourseBlock footer p {
+	font-size: 1.1em;
+}
+
+#MainContent section.CourseBlock li {
+	margin: 0 -0.625em;
+	padding: 0.625em;
+}
+
+#MainContent section.textbooks {
+	padding-bottom: 0.625em;
+}
+
+#MainContent section.textbooks header {
+	margin-bottom: -0.625em;
+}
+
+#MainContent section.textbooks strong {
+	color: #000;
+}
+
+#MainContent section.textbooks p {
+	margin-left: 0;
+}
+
+#MainContent section.textbooks li {
+	padding: 0.1em 0.625em;
+}
+
+section.CourseBlock table {
+	width: 70%;
+}
+
+section.CourseBlock .CourseInstructor {
+	float: right;
+	width: 27%;
+	margin-left: 0;
+}
+
+/* template-certsearchresults */
+
+.certsearchresults #MainContent h3 {
+	margin-bottom: -1em;
+	border: none;
+}
+
+.certsearchresults table {
+	min-width: 90%;	
+}
+
+.certsearchresults #QuickSearch h2 {
+	margin-bottom: -0.5em;
+}
+
+.certsearchresults #QuickSearch label {
+	margin: 0;
+	color: #223C67;
+	font: normal 1.3em "Gill Sans", Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+/* template-internationalhome.html */
+
+.landing1 #SocialLinks a {
+	margin-top: 0.5em;
+}
+
+.landing1 #logo img {
+	top: 0px;
+}
+
+.landing1 #GlobalHeader nav li a {
+	width: 27%;
+	padding: 0.8em 2.6%;
+}
+
+.landing1 #MainContent {
+	padding-top: 0;
+	padding-bottom: 1em;
+	box-shadow: inset 0 0 25px #ddd;
+	-moz-box-shadow: inset 0 0 25px #ddd;
+	-webkit-box-shadow: inset 0 0 25px #ddd;
+}
+
+.landing1 #TopHeader nav {
+	visibility: hidden;
+}
+
+.landing1 #LandingIntro {
+	height: auto;
+	margin: 0 -3.9%;
+	padding-top: 235px;
+	background: url(/d/images/Intl_intro-photo.jpg) no-repeat 0 0;
+	border-bottom: 4px solid #223C67;
+}
+
+.landing1 #LandingIntro p {
+	margin: 0;
+	padding: 3.9%;
+	background: url(/d/images/IntlGradient.png) repeat-x top;
+}
+
+.landing1 #MainContent h2 {
+	margin: 1.5em 0 -0.5em 0;
+}
+
+.landing1 h2 a {
+	padding: 0.1em 0 0 1.3em;
+	background: url(/d/images/bullet_arrow-blue.png) no-repeat left -0.05em;
+	text-decoration: none;
+}
+
+.landing1 h2 a:hover {
+	text-decoration: underline;
+}
+
+.landing1 h2 + p {
+	margin-left: 1.8em;
+}
+
+.landing1 footer nav li:nth-last-child(2) a {
+	border-bottom: none;
+}
+
+/* template-pvhome.html */
+
+.pvhome #MainContent {
+	min-height: 0;
+	padding: 0;
+	background: url(/d/images/PVHome_PhotoStrip.png) repeat-x;
+	overflow: hidden;
+}
+
+#PVHomeFeature {
+	margin: 125px 0 0 0;
+	background: url(/d/images/PVHomeHeroes.jpg) no-repeat left top;
+	border-top: 4px solid #223C67;
+	border-bottom: 8px solid #223C67;
+}
+
+#MainContent #PVHomeFeature ul {
+	min-height: 340px;
+	padding: 1em 0.5em 0.5em 2.5em;
+	margin: 0 0 0 285px;
+	background: url(/d/images/PVHomeHeroes-BG.jpg) repeat-x left top;
+}
+
+.pvhome #MainContent ul.bulletstyle-1 li {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.pvhome #MainContent ul.bulletstyle-1 a {
+	font-size: 1.05em;
+	color: #000;	
+}
+
+.pvhome #PVHomeFeature a:hover {
+	text-decoration: underline;
+}
+
+.pvhome #MainContent section, .pvhome #MainContent article {
+	float: right;
+	width: 43.2%;
+	min-height: 21em;
+	margin: 0;
+	padding: 0 3.5% 0 3.5%;
+	box-shadow: none;
+}
+
+.pvhome #MainContent header {
+	min-height: 3.4em;
+}
+
+.pvhome #MainContent section ul {
+	margin-top: 1.5em;
+}
+
+.pvhome #MainContent section li {
+	margin-left: 1.2em;
+}
+
+.pvhome #MainContent article {
+	border-left: 1px solid #e9bf19;
+}
+
+.pvhome #MainContent header {
+	margin: 0 -8.2% 0 -8.2%;
+	padding: 0.5em 8.2% 0.5em 8.2%;
+	border: none;
+	background: #ccc url(none);
+}
+
+.pvhome #MainContent header h2 {
+	text-transform: none;	
+}
+
+.pvhome #MainContent section {
+	width: 43.4%;
+	margin-left: -1em;
+}

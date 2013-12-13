@@ -1,0 +1,187 @@
+<!DOCTYPE HTML>
+<html lang="en" class="no-js">
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+<title>International Programs &mdash; UC Berkeley Extension</title>
+
+<link href="/d/css/main.css" rel="stylesheet" media="all" />
+<link href="/d/css/print.css" rel="stylesheet" media="print" />
+
+<script src="http://extension.berkeley.edu/javascript/modernizr_2.6.2_custom_99279.js"></script>
+
+<script>
+Modernizr.load({
+  test: Modernizr.mq('only all'),
+  nope: '/d/css/nomediaqueries.css'
+});
+</script>
+
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+  $("#GlobalHeader nav").css("height","2.2em");
+  $("#MobileMore").css("display","block");
+  $("#MobileMore").toggle(function() {
+    $("#GlobalHeader nav").css("height","auto");
+  }, function() {
+    $("#GlobalHeader nav").css("height","2.2em");
+  });
+});
+
+</script>
+
+</head>
+
+<body>
+
+<div id="container" class="landing1">
+
+<div id="GlobalHeader" role="banner">
+
+<div id="SocialLinks">
+  <a href="#">UC Berkeley Extension Home</a>
+</div>
+
+<a id="MobileMenuButton" href="#MobilePortalLinks" aria-hidden="true">Menu</a>
+
+<a id="logo" href="/" title="International Programs home"><img src="/d/images/logo-Intl.png" alt="International Programs, UC Berkeley Extension" /></a>
+
+<form id="search" role="search">
+  <label for="SearchField">Search</label>
+  <input id="SearchField" type="search">
+  <input type="image" src="/d/images/search_icon.png" alt="Search">
+</form>
+
+<div id="PortalLinks">
+  <a href="#" title="Log into the Student Portal">Student</a>
+  <a href="#" title="Log into the Instructor Portal">Instructor</a>
+</div>
+
+<!-- Dynamically swap this code with "PortalLinks" above when logged in to the portal
+<div id="PortalLinks" class="LoggedIn">
+  <a href="#">My Account</a>
+  <a href="#">Log Out</a>
+</div>
+-->
+
+<nav role="navigation">
+  <ul>
+      <li><a href="#">Programs</a></li>
+      <li><a href="#">How to Apply</a></li>
+      <li><a href="#">Dates and Fees</a></li>
+      <li><a href="#">Acceptance Details</a></li>
+      <li><a href="#">Visa Information</a></li>
+      <li><a href="#">Housing</a></li>
+      <li><a href="#">About Us</a></li>
+  </ul>
+  <a id="MobileMore" aria-hidden="true">More</a>
+</nav>
+
+</div>
+
+<header id="TopHeader">
+  <nav id="breadcrumb" role="navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+    </ul>
+  </nav>
+  <h1>Programs for International Students</h1>
+</header>
+
+<div id="MainContent" role="main">
+
+<div id="LandingIntro">
+<p>Expand your knowledge in business, art, design or academic English while immersing yourself in the San Francisco Bay Area. Choose from short-term intensive options with daytime classes or longer-term study with nighttime classes&#8212;either way, you earn a certificate that demonstrates successful completion of a rigorous, Berkeley-quality curriculum.</p>
+</div>
+
+<h2><a href="#">International Diploma Programs</a></h2>
+<p>Enhance your current work experience with full-time, intensive study in specific business disciplines. Earn a certificate In two or four months, or combine your training with an internship and further study. <a href="#">Learn more</a>.</p>
+<h2><a href="#">Evening Certificate Programs</a></h2>
+<p>Learn alongside U.S. students in these post-baccalaureate certificates in business, art and interior design. You can complete most certificates in one year, with courses offered during evenings and weekends. <a href="#">Learn more</a>.</p>
+<h2><a href="#">Fundamental Studies in Business and Entrepreneurship</a></h2>
+<p>Build your business acumen, and learn how to take your small-business idea from concept to fruition with these semester-based programs (internships available). You must be a recent graduate or an upper-level undergraduate to attend. <a href="#">Learn more</a>.</p>
+<h2><a href="#">Intensive Academic English Program</a></h2>
+<p>Receive a thorough foundation in university-level English to succeed in U.S. universities. Tailor the program length to meet your learning goats in speaking, listening, reading and academic writing. <a href="#">Learn more</a>.</p>
+<h2><a href="#">Berkeley Global Access</a></h2>
+<p>Designed for universities to bring groups of undergraduales to study in Berkeley, this program includes access to the UC Berkeley campus, classes and instructors. If you are a university interested in participating, please write to <a href="mailto:globalaccess@unex.berkeley.edu">globalaccess@unex.berkeley.edu</a>.</p>
+<h2><a href="#">College Foundations Program</a></h2>
+<p>This term-based program offers International high school students rigorous academic preparation and exposure to college-level coursework to succeed in U.S. universities. To find out more, email <a href="mailto:foundations@unex.berkeley.edu">foundations@unex.berkeley.edu</a>.</p>
+
+</div>
+
+<aside role="complementary">
+
+<section>
+  <header>
+    <h2>Which Program Is Right for You?</h2>
+  </header>
+  <p>Compare the details of all four international programs&#8212;including schedules, costs and academic requirements&#8212;in a side-by-side comparison chart.</p>
+  <p><a href="#" class="LinkButton">Compare programs</a></p>
+</section>
+
+<section>
+  <header>
+    <h2>Custom Programs</h2>
+  </header>
+  <p>In addition to International Programs, UC Berkeley Extension offers customized academic study. For more information on this option, please contact the staff in the academic area of interest at <a href="#">extension.berkeley.edu/contact</a>.</p>
+</section>
+
+<section>
+  <header>
+    <h2>What is UC Berkeley Extension?</h2>
+  </header>
+  <p>If you have questions&#8212;such as how Extension relates to UC Berkeley, where Extension is located or what defines a certificate&#8212;<a href="#">get answers now</a>.</p>
+  <p><a href="#" class="LinkButton">View <abbr title="Frequently Asked Questions">FAQ</abbr></a><abbr title="Frequently Asked Questions"></abbr></p>
+</section>
+
+</aside>
+
+<footer id="GlobalFooter" role="contentinfo">
+  
+  <div id="MobilePortalLinks">
+    <a href="#">Student Login</a>
+    <a href="#">Instructor Login</a>
+  </div>
+  
+  <!-- Dynamically swap this code with "MobilePortalLinks" above when logged in to the portal
+  <div id="MobilePortalLinks" class="LoggedIn">
+    <a href="#">My Account</a>
+    <a href="#">My Cart</a>
+  </div>
+  -->
+
+  <form id="MobileSearch">
+    <label for="MobileSearchField">Search:</label>
+    <input id="MobileSearchField" type="search">
+  </form>
+
+  <p id="copyright">Copyright &copy; UC Regents</p>
+  <nav>
+    <ul>
+      <li><a href="#">Programs</a></li>
+      <li><a href="#">How to Apply</a></li>
+      <li><a href="#">Dates and Fees</a></li>
+      <li><a href="#">Acceptance Details</a></li>
+      <li><a href="#">Visa Information</a></li>
+      <li><a href="#">Housing</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </nav>
+  <div id="MobileFooterLinks">
+    <a href="tel:+15106424111">Phone</a>
+    <a href="mailto:info@unex.berkeley.edu">Email</a>
+    <a href="/locations/">Locations</a>
+    <a href="/index.php?view=fullsite" rel="nofollow">Full Website</a>
+  </div>
+  <p id="vendormark">Powered by Destiny Solutions</p>
+  
+</footer>
+
+</div>
+
+</body>
+</html>

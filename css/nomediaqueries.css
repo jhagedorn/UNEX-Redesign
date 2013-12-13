@@ -1,0 +1,18 @@
+/* For browsers not supporting media queries: */
+
+@import url("/d/css/phone.css");
+@import url("/d/css/smalltablet.css");
+@import url("/d/css/largetablet.css");
+@import url("/d/css/desktop.css");
+
+#container {
+	width: 1000px;
+}
+
+tr, section.CourseBlock li {
+	border-bottom: 1px solid #ccc;	
+}
+
+section.textbooks li {
+	border-bottom: none;	
+}

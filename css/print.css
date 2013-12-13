@@ -1,0 +1,99 @@
+
+/* Print CSS for Destiny Public View */
+
+#container {
+	font: 10pt Arial, Helvetica, sans-serif;
+}
+
+#SocialLinks {
+	display: none;
+}
+
+#MobileMenuButton {
+	display: none;
+}
+
+#logo img {
+	width: 200px;
+	height: auto;
+	padding: 5px;
+	background: #036;
+}
+
+#search {
+	display: none;
+}
+
+#PortalLinks {
+	display: none;
+}
+
+#GlobalHeader nav {
+	display: none;
+}
+
+#breadcrumb {
+	display: none;
+}
+
+#MainContent .columns {
+	float: left;
+	margin-right: 4%;
+	width: 45%;
+}
+
+aside {
+	clear: left;	
+}
+
+aside section img {
+	width: 200px;
+	height: auto;
+}
+
+aside section, aside article {
+	float: left;
+	margin-right: 4%;
+	width: 45%;
+	min-height: 230px;
+}
+
+a.LinkButton {
+	display: block;
+	clear: left;
+}
+
+figure {
+	margin: 0 0 20px 0;
+}
+
+figcaption {
+	font-size: small;
+}
+
+#GlobalFooter {
+	clear: left;
+	text-align: center;
+	font-size: small;
+	border-top: 1px solid #ccc;
+}
+
+#MobilePortalLinks {
+	display: none;
+}
+
+#MobileSearch {
+	display: none;
+}
+
+footer nav {
+	display: none;
+}
+
+#MobileFooterLinks {
+	display: none;	
+}
+
+#vendormark {
+	display: none;	
+}

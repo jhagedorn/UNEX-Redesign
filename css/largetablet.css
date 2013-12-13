@@ -1,0 +1,130 @@
+
+/* Large Tablet CSS for Destiny Public View */
+
+#GlobalHeader {
+	margin-right: -30px;
+	background: #08325D url(/d/images/HeaderBG-login.png) no-repeat right top;
+}
+
+#SocialLinks {
+	top: 5px;
+	margin-bottom: 55px;
+}
+
+#logo img {
+	top: 35px; 
+}
+
+#GlobalHeader nav li a {
+	width: 18%;
+}
+
+#GlobalHeader nav li:nth-child(3) a {
+	clear: none;
+	border-left: 1px solid #fff;
+}
+
+#GlobalHeader nav li:nth-child(4) a {
+	clear: left;
+	border-left: none;
+}
+
+#GlobalHeader nav li:nth-child(6) a {
+	border-left: 1px solid #fff;
+}
+
+#GlobalHeader nav li:nth-child(3) a {
+	border-right: 1px solid #fff;
+}
+
+#GlobalHeader nav li:nth-child(2) a,
+#GlobalHeader nav li:nth-child(7) a {
+	border-right: none;
+}
+
+#GlobalHeader nav li:nth-child(1) a {
+	width: 18%;
+}
+
+#GlobalHeader nav li:nth-child(3) a,
+#GlobalHeader nav li:nth-child(6) a {
+	width: 24%;
+}
+
+#MobileMore {
+	background:
+		url(/d/images/MobileArrow-white-down.png) no-repeat 6em center,
+		url(/d/images/GlobalNavBG-RadialBlur.png) no-repeat left,
+		#036 url(/d/images/GlobalNavBG-TwoTone.png) repeat-x center;
+}
+
+#MainContent {
+	float: left;
+	width: 65%;
+	min-height: 60em;
+	border-right: 1px solid #e9bf19;
+}
+
+aside {
+	float: right;
+	width: 28.8%;
+}
+
+aside section, aside article {
+	float: none;
+	width: auto;
+	padding: 1.2em 7% 1.2em 3.5%;
+	min-height: 0;
+	clear: right;
+}
+
+aside section:nth-child(even), aside article:nth-child(even) {
+	border-left: none;
+}
+
+aside section:first-child, aside article:first-child {
+	border: none;
+}
+
+aside img.StudentSuccess {
+	width: 108%;
+}
+
+aside a.LinkButton {
+	margin-bottom: 0.1em;
+}
+
+footer nav ul { 
+	width: 65em;
+}
+
+footer nav li:nth-child(5) {
+	border-left: 1px solid #666;	
+}
+
+footer nav li:nth-child(6) {
+	border-left: 1px solid #666;	
+}
+
+footer nav li:nth-child(7) {
+	
+}
+
+/*** Custom Template Styles ***/
+
+/* template-internationalhome.html */
+
+.landing1 #GlobalHeader nav li a {
+	width: 19%;
+	padding: 0.8em 2.6%;
+}
+
+/* template-pvhome.html */
+
+.pvhome #MainContent {
+	width: 70%;
+}
+
+.landing1 #logo img {
+	top: 10px;
+}

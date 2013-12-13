@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<html lang="en" class="no-js">
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+<title>The Leader In Continuing Education &mdash; UC Berkeley Extension</title>
+
+<link href="/d/css/main.css" rel="stylesheet" media="all" />
+<link href="/d/css/print.css" rel="stylesheet" media="print" />
+
+<script src="http://extension.berkeley.edu/javascript/modernizr_2.6.2_custom_99279.js"></script>
+
+<script>
+Modernizr.load({
+  test: Modernizr.mq('only all'),
+  nope: '/d/css/nomediaqueries.css'
+});
+</script>
+
+<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.0.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+  $("#GlobalHeader nav").css("height","2.2em");
+  $("#MobileMore").css("display","block");
+  $("#MobileMore").toggle(function() {
+    $("#GlobalHeader nav").css("height","auto");
+  }, function() {
+    $("#GlobalHeader nav").css("height","2.2em");
+  });
+});
+
+</script>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="GlobalHeader" role="banner">
+
+<div id="SocialLinks">
+  <a href="http://www.facebook.com/pages/Berkeley-CA/UC-Berkeley-Extension/246684998518" title="Facebook"><img class="SocialLogos" src="/d/images/facebook_icon.png" alt="Facebook logo" /></a>
+  <a href="http://twitter.com/UCBerkeleyExt" title="Twitter"><img class="SocialLogos" src="/d/images/Twitter_icon.png" alt="Twitter logo" /></a>
+  <a href="http://www.linkedin.com/company/uc-berkeley-extension" title="LinkedIn"><img class="SocialLogos" src="/d/images/LinkedIn.png" alt="LinkedIn logo" /></a>
+  <a id="CartLink" href="#">My Cart</a>
+  <a href="#"><img src="/d/images/cart_icon.png" alt="shopping cart" /></a>
+</div>
+
+<a id="MobileMenuButton" href="#MobilePortalLinks" aria-hidden="true">Menu</a>
+
+<a id="logo" href="/" title="UC Berkeley Extension home page"><img src="/d/images/logo.png" alt="UC Berkeley Extension" /></a>
+
+<form id="search" role="search">
+  <label for="SearchField">Search</label>
+  <input id="SearchField" type="search">
+  <input type="image" src="/d/images/search_icon.png" alt="Search">
+</form>
+
+<!-- 
+<div id="PortalLinks">
+  <a href="#" title="Log into the Student Portal">Student</a>
+  <a href="#" title="Log into the Instructor Portal">Instructor</a>
+</div>
+Dynamically swap this code with "PortalLinks" below when not logged in to the portal
+-->
+
+<div id="PortalLinks" class="LoggedIn">
+  <a href="#">My Account</a>
+  <a href="#">Log Out</a>
+</div>
+
+<nav role="navigation">
+  <ul>
+      <li><a href="#">Course Catalog</a></li>
+      <li><a href="#">Programs of Study</a></li>
+      <li><a href="#">Certificates and Programs</a></li>
+      <li><a href="#">Online Learning</a></li>
+      <li><a href="#">Student Services</a></li>
+      <li><a href="#">International Programs</a></li>
+      <li><a href="#">About Us</a></li>
+  </ul>
+  <a id="MobileMore" aria-hidden="true">More</a>
+</nav>
+
+</div>
+
+<header id="TopHeader">
+  <nav id="breadcrumb" role="navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li>Programs of Study</li>
+    </ul>
+  </nav>
+  <h1>Programs of Study</h1>
+</header>
+
+<div id="MainContent" role="main">
+
+<p>UC Berkeley Extension offers courses, certificates and programs in many areas. Courses are held at convenient <a href="#">Bay Area locations</a> and <a href="#">online</a>.</p>
+<ul class="bulletstyle-1 arrow-blue">
+  <li><a href="#">Art and Design</a></li>
+  <li><a href="#">Behavioral Health Sciences</a></li>
+  <li><a href="#">Business</a></li>
+  <li><a href="#">Construction and Environmental Management</a></li>
+  <li><a href="#">Education</a></li>
+  <li><a href="#">Humanities, Languages and Personal Development</a></li>
+  <li><a href="#">Sciences, Biotechnology and Mathematics</a></li>
+  <li><a href="#">Technology and Information Management</a></li>
+  <li><a href="#">Writing, Editing and Technical Communication</a></li>
+</ul>
+</div>
+
+<aside role="complementary">
+
+<article>
+  <header>
+    <h2>Upcoming Information Sessions</h2>
+  </header>
+  <p><a href="#">Certificate Program in Entrepreneurship and Small Busoness Management</a><br>
+    Monday, Dec. 3<br>
+    </p>
+  <p><a href="#">Certificate Program In Human Resource Management</a><br>
+    Thursday, Dec. 6</p>
+  <p><a href="#" class="LinkButton">See all information sessions</a></p>
+</article>
+
+<article>
+  <header>
+    <h2>Calendar of Events</h2>
+  </header>
+  <p><a href="#">Transbay Festival</a><br>
+    Friday, Oct. 12</p>
+  <p><a href="#">Reading Event at Litquake: Pints, Poetry and Prose</a><br>
+    Saturday, Oct. 13</p>
+  <p><a href="#" class="LinkButton">View all events</a></p>
+</article>
+
+</aside>
+
+<footer id="GlobalFooter" role="contentinfo">
+  
+  <!-- Dynamically swap this code with "MobilePortalLinks" below when not logged in to the portal
+  <div id="MobilePortalLinks">
+    <a href="#">Student Login</a>
+    <a href="#">Instructor Login</a>
+  </div>
+  -->
+  
+  <div id="MobilePortalLinks" class="LoggedIn">
+    <a href="#">My Account</a>
+    <a href="#">My Cart</a>
+  </div>
+
+  <form id="MobileSearch">
+    <label for="MobileSearchField">Search:</label>
+    <input id="MobileSearchField" type="search">
+  </form>
+
+  <p id="copyright">Copyright &copy; UC Regents</p>
+  <nav>
+    <ul>
+      <li><a href="#">Course Catalog</a></li>
+      <li><a href="#">Programs of Study</a></li>
+      <li><a href="#">Certificates and Programs</a></li>
+      <li><a href="#">Online Learning</a></li>
+      <li><a href="#">Student Services</a></li>
+      <li><a href="#">International Programs</a></li>
+      <li><a href="#">Corporate Training</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Jobs</a></li>
+    </ul>
+  </nav>
+  <div id="MobileFooterLinks">
+    <a href="tel:+15106424111">Phone</a>
+    <a href="mailto:info@unex.berkeley.edu">Email</a>
+    <a href="/locations/">Locations</a>
+    <a href="/index.php?view=fullsite" rel="nofollow">Full Website</a>
+  </div>
+  <p id="vendormark">Powered by Destiny Solutions</p>
+  
+</footer>
+
+</div>
+
+</body>
+</html>

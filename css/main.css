@@ -1,0 +1,7 @@
+/* CSS main file for Destiny Public View */
+
+@import url("/d/css/phone.css") screen;
+@import url("/d/css/smalltablet.css") screen and (min-width: 34.688em); /* 555px */
+@import url("/d/css/largetablet.css") screen and (min-width: 48em); /* 768px */
+@import url("/d/css/desktop.css") screen and (min-width: 63.125em); /* 1010px */
+@import url("/d/css/print.css") print;

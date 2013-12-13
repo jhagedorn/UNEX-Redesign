@@ -1,0 +1,96 @@
+/* Desktop CSS for Destiny Public View */
+
+body {
+	margin: 0 0 30px 0;
+	background: #ccc;
+}
+
+#container {
+	max-width: 78em;
+	margin: 0 auto;
+	border-right: 1px solid #69C;
+	border-bottom: 1px solid #69C;
+	border-left: 1px solid #69C;
+	background: #fff;
+	box-shadow: 0px 0px 20px #666;
+	-moz-box-shadow: 0 0px 20px #666;
+	-webkit-box-shadow: 0 0 20px #666;
+	font: 0.8em Arial, Helvetica, sans-serif;
+}
+
+#GlobalHeader {
+	margin-right: 0;
+}
+
+#GlobalHeader a:hover {
+	text-decoration: underline;
+}
+
+#MobileMenuButton {
+	display: none;
+}
+
+#logo img {
+	top: 42px;
+	left: 3.5%;
+}
+
+#GlobalHeader nav {
+	background: url(/d/images/GlobalNavBG-TwoTone.png) repeat-x center;	
+}
+
+#GlobalHeader nav li a {
+	width: auto;
+	padding: 0.8em 1em;
+	font-size: 0.85em;
+	background: url(/d/images/GlobalNavBG-RadialBlur.png) no-repeat left;
+}
+
+#GlobalHeader nav li:nth-child(4) a {
+	clear: none;
+}
+
+#GlobalHeader nav li:nth-child(1) a,
+#GlobalHeader nav li:nth-child(3) a,
+#GlobalHeader nav li:nth-child(6) a {
+	width: auto;
+}
+
+#MobileMore {
+	display: none !important;
+}
+
+footer nav ul { 
+	width: auto;
+}
+
+footer nav li:nth-child(7) {
+	border-left: 1px solid #666;	
+}
+
+ul.bulletstyle-1 a:hover {
+	text-decoration: underline;
+}
+
+ul.bulletstyle-2 a:hover {
+		
+}
+
+/*** Custom Template Styles ***/
+
+/* template-internationalhome.html */
+
+.landing1 #GlobalHeader nav li a {
+	width: auto;
+	padding: 0.8em 2.9%;
+}
+
+/* template-pvhome.html */
+
+.pvhome #MainContent section, .pvhome #MainContent article {
+	min-height: 19em;
+}
+
+.pvhome #MainContent header {
+	min-height: 0;
+}
